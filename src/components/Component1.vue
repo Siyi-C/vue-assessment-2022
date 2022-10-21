@@ -1,5 +1,5 @@
 <template>
-    <div v-if="string.length > 0">
+    <div v-if="string === null">
         <p>Congrats you have discovered the issue</p>
         <p>Don't forget to commit this solution</p>
     </div>
